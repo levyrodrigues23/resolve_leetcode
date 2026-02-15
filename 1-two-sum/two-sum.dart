@@ -1,8 +1,9 @@
 class Solution {
   List<int>? twoSum(List<int> nums, int target) {
-    for(var i = 0; i < nums.length; i++){
+    int n = nums.length;
+    for(var i = 0; i < n; i++){
         
-        for(var j = i + 1; j < nums.length; j++){
+        for(var j = i + 1; j < n; j++){
             if(nums[i] + nums[j] == target){
                 return [i, j];
             } 
