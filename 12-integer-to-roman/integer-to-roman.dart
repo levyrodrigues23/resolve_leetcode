@@ -3,7 +3,7 @@
 class Solution {
   String intToRoman(int num) {
     final Map<int, String> romanMap = {
-           1000: 'M',
+    1000: 'M',
     900: 'CM',
     500: 'D',
     400: 'CD',
@@ -32,7 +32,7 @@ class Solution {
 
   }
 
-  return result;
+     return result;
   }
 
 }
